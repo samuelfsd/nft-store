@@ -21,3 +21,7 @@ code {
 html,body, #root {
   width: 100%;
 }
+
+button, input {
+  border: 0;
+}
