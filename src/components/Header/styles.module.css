@@ -19,7 +19,7 @@
 .menuContainer {
     display: flex;
     list-style: none;
-
+    flex-wrap: wrap;
 }
 
 .menuContainer li span {
@@ -30,6 +30,8 @@
     display: flex;
     list-style: none;
     gap: 3.75rem;
+
+    flex-wrap: wrap;
 }
 
 .userInfoContainer li {
