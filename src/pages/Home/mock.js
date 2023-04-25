@@ -25,7 +25,7 @@ export const nfts = [
   },
   {
     id: 3,
-    name: "Deadzone 13 Hideout",
+    name: "Deadzone 20 Hideout",
     price: "0.49",
     coin: "BNB",
     likes: 34,
