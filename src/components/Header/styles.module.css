@@ -12,6 +12,8 @@
     font-size: 0.875rem;
     line-height: 1.625rem;
     color: #FFF;
+
+    margin-bottom: 2.5rem;
 }
 
 .menuContainer {
@@ -30,9 +32,35 @@
     gap: 3.75rem;
 }
 
+.userInfoContainer li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.userInfoContainer li:active {
+    transform: scale(0.95);
+}
+
+.userInfoContainer li:hover {
+    transform: scale(1.05);
+}
+
+
 .logo {
     margin-right: 3.75rem;
     font-size: 1.5rem;
     font-weight: bold;
 
+}
+
+.authContainer {
+    gap: 1rem;
+    text-decoration: underline;
+}
+
+.hamburgerContainer {
+    background:#FFF;
+    padding: 1rem;
+    border-radius: 50%;
 }

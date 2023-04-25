@@ -28,20 +28,14 @@ export function Header() {
 
       <ul className={styles.userInfoContainer}>
         <li>
-          <span>
             <Search />
-          </span>
         </li>
-        <li>
-          <span>
-            <Lock />
-          </span>
+        <li className={styles.authContainer}>
+          <Lock />
           <span>Sign In </span>
         </li>
-        <li>
-          <span>
+        <li className={styles.hamburgerContainer}>
             <Hamburger />
-          </span>
         </li>
       </ul>
     </header>
