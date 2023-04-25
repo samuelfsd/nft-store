@@ -78,3 +78,27 @@
     justify-content: center;
     gap: 2.6%;
 }
+
+.loadMoreContainer {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    padding-bottom: 7rem;
+    flex-wrap: nowrap;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.centralizedLoadMoreContainer:hover {
+    transform:scale(1.05);
+}
+.centralizedLoadMoreContainer:active {
+    transform: scale(0.95);
+}
+
+.centralizedLoadMoreContainer svg {
+    margin-bottom: 0.75rem;
+}

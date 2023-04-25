@@ -62,9 +62,13 @@ export function Home() {
           ))}
         </div>
 
-        <div className={styles.reload}>
-          <Reload />
-          Show more
+        <div className={styles.loadMoreContainer}>
+          <div className={styles.centralizedLoadMoreContainer}>
+            <Reload />
+            <div>
+              <span>Show more</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
