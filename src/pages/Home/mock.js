@@ -7,6 +7,7 @@ export const nfts = [
     likes: 34,
     author: {
       name: "@marterium",
+      imgUrl: require("../../assets/authors/author-1.png"),
     },
     imgUrl: require("../../assets/nft-1.png"),
   },
@@ -18,6 +19,7 @@ export const nfts = [
     likes: 34,
     author: {
       name: "@marterium",
+      imgUrl: require("../../assets/authors/author-2.png")
     },
     imgUrl: require("../../assets/nft-2.png"),
   },
@@ -29,6 +31,7 @@ export const nfts = [
     likes: 34,
     author: {
       name: "@marterium",
+      imgUrl: require("../../assets/authors/author-3.png")
     },
     imgUrl: require("../../assets/nft-3.png"),
   },

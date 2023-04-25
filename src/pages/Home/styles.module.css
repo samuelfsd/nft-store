@@ -21,10 +21,15 @@
     color: #FFF;
     line-height: 2rem;
     cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
 }
 .inputContainer{
     position: relative;
-    width: 55%;
+    width: 40%;
+
 }
 
 .smallButton {
@@ -34,6 +39,10 @@
     color: #FFF;
     line-height: 2rem;
     cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
 }
 
 .button:hover, .smallButton:hover {
